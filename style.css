@@ -4,3 +4,14 @@ body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
  }
+ @keyframes example {
+    from {background-color: white;}
+    to {background-color: rgb(75, 204, 75);}
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 4s;
+  }
